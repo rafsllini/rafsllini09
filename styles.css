@@ -3,15 +3,15 @@
     padding: 0;
 }
 .fundo{
-    background-image: linear-gradient(45deg, grey, black);
+    background-image:-o-linear-gradient(45deg,grey, black);
     height: 100vh;
-    color: black;
+    color:rgb(240, 152, 211);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;    
 }
 .Calculadora{
     position: absolute;
-    background-color: rgba(222,219,219,0.7);
+    background-color: rgb(240, 231, 140);
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -25,12 +25,12 @@
     margin: 3px;
     font-size: 25px;
     cursor: pointer;
-    background-color: gray;
+    background-color: rgb(136, 209, 229);
     border: none;
-    color: black;
+    color: rgb(243, 154, 214);
 }
 .botao:hover{
-    background-color: black;
+    background-color: rgb(172, 215, 248);
     color: white;
 }
 #resultado{
